@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search Ticket</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="search-ticket">
+
+<div class="menu">
+    <table>
+        <tr>
+            <td class="top-border-of-search-page"><a class="options" href="">Show My Tickets</a></td>
+        </tr>
+    </table>
+</div>
+<div class="menu1">
+    <table>
+        <tr>
+            <td class="top-border-of-search-page"><a class="options" href="">Log out</a></td>
+        </tr>
+    </table>
+</div>
+
+
+
+
+<div style="display:block; align-items: center;">
+
+    <form action="./show-flight" style="background-color: gray; width: 100%; align-content: center">
+
+        <table>
+            <tr>
+                <td><label for="from">From<sup>*</sup></label></td>
+                <td><label for="to">To<sup>*</sup></label></td>
+                <td><label for="date">Flight Dat<sup>*</sup></label></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="from" name="departure-airport" placeholder="Enter the origin" required style="width:95%"></label></td>
+                <td><input type="text" id="to" name="destination-airport" placeholder="Enter the destination" required style="width:95%"></td>
+                <td><input type="date" id="date" name="date" required style="width:95%;"></td>
+                <td><input type="submit" value="Search" class="search-button"></td>
+            </tr>
+        </table>
+
+
+
+
+    </form>
+</div>
+</body>
+</html>

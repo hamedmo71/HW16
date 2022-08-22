@@ -1,4 +1,4 @@
-body{
+#login-body{
     background-image: url("https://blog.railyatri.in/wp-content/uploads/2018/05/Cover-1-1.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -58,4 +58,47 @@ body{
 #register{
     text-decoration: none;
     color: #CFE8A9;
+}
+
+#search-ticket{
+    background-color: #15ead9;
+    background-size: cover;
+}
+
+.menu {
+    background-color: #FF9551;
+    display: inline-block;
+    width: 15%;
+    height: max-content;
+    padding: 3px;
+    box-sizing: border-box;
+    float: left;
+}
+.menu1 {
+    background-color: #FF9551;
+    display: inline-block;
+    width: 85%;
+    height: max-content;
+    padding: 3px;
+    box-sizing: border-box;
+    float: left;
+
+}
+
+.top-border-of-search-page{
+    background-color: #FF4A4A;
+    border-radius: 5px
+}
+
+.options{
+    text-decoration: none;
+    color: #000000; font-size: 1.2em
+}
+
+.search-button{
+    background-image: linear-gradient(to right, #031632, #09f1d7);
+    width: 100px;
+    font-family: "Times New Roman";
+    font-size: 1.1em;
+    border-radius: 10px;
 }

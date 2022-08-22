@@ -33,7 +33,7 @@ public class TravelRepositoryImpl extends BaseRepositoryImpl<Travel, Long>
         return entityManager.createQuery
                 ("select t from Travel t where source=:source and " +
                         "destination=:destination and " +
-                        "travelDate>:travelDate",getEntityClass())
+                        "travelDate>:travelDate order by travelDate",getEntityClass())
                 .setParameter("source",source)
                 .setParameter("destination",destination)
                 .setParameter("travelDate",travelDate).getResultList();

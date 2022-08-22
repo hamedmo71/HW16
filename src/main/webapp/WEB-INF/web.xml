@@ -6,6 +6,11 @@
   <display-name>Archetype Created Web Application</display-name>
 
 
+  <filter-mapping>
+    <filter-name>auth-filter</filter-name>
+    <url-pattern>/search-ticket</url-pattern>
+  </filter-mapping>
+
   <welcome-file-list>
     <welcome-file>login-servlet</welcome-file>
   </welcome-file-list>
